@@ -23,11 +23,17 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            imgCard1.Source = new BitmapImage(new Uri("C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\AH.jpg"));
+            /*imgCard1.Source = new BitmapImage(new Uri("C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\AH.jpg"));
             imgCard2.Source = new BitmapImage(new Uri("C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\KH.jpg"));
             imgCard3.Source = new BitmapImage(new Uri("C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\QH.jpg"));
             imgCard4.Source = new BitmapImage(new Uri("C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\JH.jpg"));
-            imgCard5.Source = new BitmapImage(new Uri("C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\10H.jpg"));
+            imgCard5.Source = new BitmapImage(new Uri("C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\10H.jpg"));*/
+            Deck deck = new Deck();
+            imgCard1.Source = new BitmapImage(new Uri(deck.cards[0].ImageLocation));
+            imgCard2.Source = new BitmapImage(new Uri(deck.cards[1].ImageLocation));
+            imgCard3.Source = new BitmapImage(new Uri(deck.cards[2].ImageLocation));
+            imgCard4.Source = new BitmapImage(new Uri(deck.cards[3].ImageLocation));
+            imgCard5.Source = new BitmapImage(new Uri(deck.cards[4].ImageLocation));
         }
     }
 }

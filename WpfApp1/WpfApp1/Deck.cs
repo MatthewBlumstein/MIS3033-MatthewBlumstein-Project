@@ -15,29 +15,29 @@ namespace WpfApp1
             for(int i = 0; i < 4; i++)
             {
                 char suit = suits[i];
-                for(int j = 2; j < 15; j++)
+                for(int j = 2; j < 14; j++)
                 {
                     int rank = j;
                     string imageLocation;
-                    if(rank == 11)
+                    if(rank == 10)
                     {
-                        imageLocation = $"C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\J{suit}.jpg";
+                        imageLocation = $"C: \\Users\\Acer\\Downloads\\cards_jpeg_zip\\JPEG\\J{suit}.jpg";
                     }
-                    else if(rank == 12)
+                    else if(rank == 11)
                     {
-                        imageLocation = $"C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\Q{suit}.jpg";
+                        imageLocation = $"C: \\Users\\Acer\\Downloads\\cards_jpeg_zip\\JPEG\\Q{suit}.jpg";
+                    }
+                    else if (rank == 12)
+                    {
+                        imageLocation = $"C: \\Users\\Acer\\Downloads\\cards_jpeg_zip\\JPEG\\{suit}.jpg";
                     }
                     else if (rank == 13)
                     {
-                        imageLocation = $"C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\K{suit}.jpg";
-                    }
-                    else if (rank == 14)
-                    {
-                        imageLocation = $"C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\A{suit}.jpg";
+                        imageLocation = $"C: \\Users\\Acer\\Downloads\\cards_jpeg_zip\\JPEG\\A{suit}.jpg";
                     }
                     else
                     {
-                        imageLocation = $"C:\\Users\\blum7476\\Downloads\\cards_jpeg_zip\\JPEG\\{rank}{suit}.jpg";
+                        imageLocation = $"C: \\Users\\Acer\\Downloads\\cards_jpeg_zip\\JPEG\\{rank}{suit}.jpg";
                     }
                     Card card = new Card(suit, rank, imageLocation);
                     cards.Add(card);

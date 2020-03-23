@@ -8,9 +8,9 @@ namespace WpfApp1
 {
     class Card
     {
-        char Suit { get; set; }
-        int Rank { get; set; }
-        string ImageLocation { get; set; }
+        public char Suit { get; set; }
+        public int Rank { get; set; }
+        public string ImageLocation { get; set; }
 
         public Card()
         {
