@@ -38,11 +38,11 @@
         <Label Content="36" HorizontalAlignment="Left" Margin="448,90,0,0" VerticalAlignment="Top" Foreground="#FFFDB722"/>
         <Label Content="45" HorizontalAlignment="Left" Margin="509,90,0,0" VerticalAlignment="Top" Foreground="#FFFDB722" RenderTransformOrigin="0.499,1.283"/>
         <Label Content="Flush" HorizontalAlignment="Left" Margin="211,103,0,0" VerticalAlignment="Top" Height="26" Foreground="#FFFDB419"/>
-        <Label Content="25" HorizontalAlignment="Left" Margin="312,103,0,0" VerticalAlignment="Top" Height="26" Foreground="#FFFBB41B"/>
-        <Label Content="50" HorizontalAlignment="Left" Margin="357,103,0,0" VerticalAlignment="Top" Height="26" RenderTransformOrigin="0.341,0.822" Foreground="#FFFDB825"/>
-        <Label Content="75" HorizontalAlignment="Left" Margin="400,103,0,0" VerticalAlignment="Top" Foreground="#FFFBB829" RenderTransformOrigin="0.597,-0.038"/>
-        <Label Content="100" HorizontalAlignment="Left" Margin="448,103,0,0" VerticalAlignment="Top" Foreground="#FFFDB722" RenderTransformOrigin="0.472,1.17"/>
-        <Label Content="125" HorizontalAlignment="Left" Margin="509,103,0,0" VerticalAlignment="Top" Foreground="#FFFDB722" RenderTransformOrigin="0.499,1.283"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="312,103,0,0" VerticalAlignment="Top" Height="26" Foreground="#FFFBB41B"/>
+        <Label Content="12" HorizontalAlignment="Left" Margin="357,103,0,0" VerticalAlignment="Top" Height="26" RenderTransformOrigin="0.341,0.822" Foreground="#FFFDB825"/>
+        <Label Content="18" HorizontalAlignment="Left" Margin="400,103,0,0" VerticalAlignment="Top" Foreground="#FFFBB829" RenderTransformOrigin="0.597,-0.038"/>
+        <Label Content="24" HorizontalAlignment="Left" Margin="448,103,0,0" VerticalAlignment="Top" Foreground="#FFFDB722" RenderTransformOrigin="0.472,1.17"/>
+        <Label Content="30" HorizontalAlignment="Left" Margin="509,103,0,0" VerticalAlignment="Top" Foreground="#FFFDB722" RenderTransformOrigin="0.499,1.283"/>
         <Label Content="Straight" HorizontalAlignment="Left" Margin="211,116,0,0" VerticalAlignment="Top" Height="26" Foreground="#FFFDB419"/>
         <Label Content="4" HorizontalAlignment="Left" Margin="312,116,0,0" VerticalAlignment="Top" Height="26" Foreground="#FFFBB41B"/>
         <Label Content="8" HorizontalAlignment="Left" Margin="357,116,0,0" VerticalAlignment="Top" Height="26" RenderTransformOrigin="0.341,0.822" Foreground="#FFFDB825"/>
@@ -68,21 +68,21 @@
         <Label Content="4" HorizontalAlignment="Left" Margin="448,155,0,0" VerticalAlignment="Top" Foreground="#FFFDB722" RenderTransformOrigin="0.472,1.17"/>
         <Label Content="5" HorizontalAlignment="Left" Margin="509,155,0,0" VerticalAlignment="Top" Foreground="#FFFDB722" RenderTransformOrigin="0.499,1.283"/>
         <CheckBox x:Name="chkHold1" Content="Hold" HorizontalAlignment="Left" Margin="139,332,0,0" VerticalAlignment="Top" Width="56"/>
-        <CheckBox x:Name="ckHold2" Content="Hold" HorizontalAlignment="Left" Margin="245,332,0,0" VerticalAlignment="Top" Width="56"/>
-        <CheckBox x:Name="ckHold3" Content="Hold" HorizontalAlignment="Left" Margin="346,332,0,0" VerticalAlignment="Top" Width="56"/>
-        <CheckBox x:Name="ckHold4" Content="Hold" HorizontalAlignment="Left" Margin="458,332,0,0" VerticalAlignment="Top" Width="56"/>
-        <CheckBox x:Name="ckHold5" Content="Hold" HorizontalAlignment="Left" Margin="559,332,0,0" VerticalAlignment="Top" Width="56"/>
-        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="88,358,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="187,358,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="3" HorizontalAlignment="Left" Margin="286,358,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="389,358,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="490,358,0,0" VerticalAlignment="Top" Width="75"/>
+        <CheckBox x:Name="chkHold2" Content="Hold" HorizontalAlignment="Left" Margin="245,332,0,0" VerticalAlignment="Top" Width="56"/>
+        <CheckBox x:Name="chkHold3" Content="Hold" HorizontalAlignment="Left" Margin="346,332,0,0" VerticalAlignment="Top" Width="56"/>
+        <CheckBox x:Name="chkHold4" Content="Hold" HorizontalAlignment="Left" Margin="458,332,0,0" VerticalAlignment="Top" Width="56"/>
+        <CheckBox x:Name="chkHold5" Content="Hold" HorizontalAlignment="Left" Margin="559,332,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="88,358,0,0" VerticalAlignment="Top" Width="75" Click="btn1_Click"/>
+        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="187,358,0,0" VerticalAlignment="Top" Width="75" Click="btn2_Click"/>
+        <Button x:Name="btn6" Content="3" HorizontalAlignment="Left" Margin="286,358,0,0" VerticalAlignment="Top" Width="75" Click="btn6_Click"/>
+        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="389,358,0,0" VerticalAlignment="Top" Width="75" Click="btn4_Click"/>
+        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="490,358,0,0" VerticalAlignment="Top" Width="75" Click="btn5_Click"/>
         <Label x:Name="lblBet" Content="Bet: 5" HorizontalAlignment="Left" Margin="649,355,0,0" VerticalAlignment="Top" Foreground="#FFF92510"/>
         <Label x:Name="lblWin" Content="Win: 4000" HorizontalAlignment="Left" Margin="689,355,0,0" VerticalAlignment="Top" Foreground="#FFF52E1B"/>
         <Label x:Name="lblCurrent" Content="Current: 4000" HorizontalAlignment="Left" Margin="571,355,0,0" VerticalAlignment="Top" Foreground="#FFF92510"/>
-        <Button x:Name="btnDraw" Content="Draw" HorizontalAlignment="Left" Margin="689,196,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btnSwap" Content="Swap" HorizontalAlignment="Left" Margin="689,236,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btnCashOut" Content="Cash Out" HorizontalAlignment="Left" Margin="689,275,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnDraw" Content="Draw" HorizontalAlignment="Left" Margin="689,196,0,0" VerticalAlignment="Top" Width="75" Click="btnDraw_Click"/>
+        <Button x:Name="btnSwap" Content="Swap" HorizontalAlignment="Left" Margin="689,236,0,0" VerticalAlignment="Top" Width="75" Click="btnSwap_Click"/>
+        <Button x:Name="btnCashOut" Content="Cash Out" HorizontalAlignment="Left" Margin="689,275,0,0" VerticalAlignment="Top" Width="75" Click="btnCashOut_Click"/>
 
     </Grid>
 </Window>
